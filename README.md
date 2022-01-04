@@ -1,2 +1,7 @@
 # storybook-webpack5-esm-typescript
-Storybook webpack 5 typescript ESM
+
+```console
+nvm use 16
+npm i
+npm run storybook
+```

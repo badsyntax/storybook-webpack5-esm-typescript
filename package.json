@@ -1,0 +1,45 @@
+{
+  "name": "storybook-webpack5-esm-typescript",
+  "version": "1.0.0",
+  "description": "The following instructions are collated from https://github.com/storybookjs/storybook/issues/14877",
+  "main": "index.js",
+  "engines": {
+    "node": "^16",
+    "npm": "^8"
+  },
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badsyntax/storybook-webpack5-esm-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badsyntax/storybook-webpack5-esm-typescript/issues"
+  },
+  "homepage": "https://github.com/badsyntax/storybook-webpack5-esm-typescript#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/builder-webpack5": "^6.4.9",
+    "@storybook/manager-webpack5": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "babel-loader": "^8.2.3",
+    "resolve-typescript-plugin": "^1.1.1",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0"
+  }
+}
